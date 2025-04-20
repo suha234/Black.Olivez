@@ -3,23 +3,117 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Book Your Event - BlackoliveZEvent</title>
+  <title>Book Your Event - BlackoliveEvent</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff7f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: rgba(31, 31, 31, 0.95);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #f3cba5;
+      font-family: 'Georgia', serif;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f3cba5;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 40px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    h1 {
+      color: #b88657;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    form textarea {
+      resize: vertical;
+    }
+
+    button {
+      background-color: #b88657;
+      color: #fff;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #a87448;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
 
   <header>
     <div class="logo">BlackoliveEvent</div>
     <nav>
-      <a href="prg01.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="food.html">Food</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section>
-    <h1 style="color: #b88657;">Book Your Event</h1>
-    <p style="text-align: center;">Fill in the details below and we’ll get back to you!</p>
+    <h1>Book Your Event</h1>
+    <p>Fill in the details below and we’ll get back to you!</p>
     <form>
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
@@ -30,7 +124,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 BlackoliveZ Event. Your dream event starts here.</p>
+    <p>&copy; 2025 BlackoliveEvent. Your dream event starts here.</p>
   </footer>
 
 </body>
