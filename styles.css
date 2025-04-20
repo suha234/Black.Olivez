@@ -32,8 +32,8 @@ header {
 }
 
 .log img {
-  height: 5px;  /* Adjust this value to fit your design */
-  width: auto;
+  height: 100px;  /* Adjust this value to fit your design */
+  width: 50px;
   display: block;
 }
 
