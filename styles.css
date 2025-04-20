@@ -31,6 +31,12 @@ header {
   font-family: 'Georgia', serif;
 }
 
+.log img {
+  height: 60px;
+  width:auto;
+  display: block;
+}
+
 nav a {
   color: #fff;
   margin: 0 12px;
