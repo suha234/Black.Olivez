@@ -32,9 +32,9 @@ header {
 }
 
 .log img {
-  height: 11px;
-  width:auto;
-  display: block;
+  height: 50px;  /* Adjust this value to fit your design */
+  width: auto;
+  display: block;
 }
 
 nav a {
